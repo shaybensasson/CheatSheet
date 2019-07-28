@@ -1,0 +1,41 @@
+\documentclass{article} 
+\usepackage{graphicx} %Much better graphics render
+%\usepackage[margin=1in]{geometry} %Using 'geometry', margin to 1 inch
+\usepackage{algpseudocode} %algorithmic style blocks
+\usepackage{hyperref} %for links
+
+\usepackage{multirow} %advanced table formatting
+\usepackage{caption,subcaption} %advanced figures
+\usepackage{enumitem} %allows Continuing lists
+\usepackage{amsmath} %more math
+
+\graphicspath{{graphics/}}
+
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\newcommand{\defints} [4]{\int_{#1}^{#2}{\mathrm{d}{#3}\;{#4}}}
+\newcommand{\definte}[4]{\int_{#1}^{#2}{{#4}\;\mathrm{d}{#3}}}
+
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+\usepackage[pdftex,dvipsnames]{xcolor}  % Coloured text etc.
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\OS}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{OS: #2}}
+\newcommandx{\SB}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{SB: #2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+
+\title{My Course Summary}
+\author{Shay Ben-Sasson}
+%\date{} - commenting this shows the current date in the title (when using `article`)
+
+\newcommand{\ctrl}{Ctrl}
+\newcommand{\shift}{Shift}
+\newcommand{\alt}{Alt}
+
+\begin{document}
+    %\footnotesize
+    \small
+    \input{subsections/pycharm}
+    \input{subsections/jupyter}
+    \input{subsections/kile}
+\end{document}

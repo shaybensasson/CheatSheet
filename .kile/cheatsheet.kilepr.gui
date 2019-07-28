@@ -1,0 +1,61 @@
+[General]
+kile_livePreviewEnabled=true
+kile_livePreviewStatusUserSpecified=true
+kile_livePreviewTool=LivePreview-PDFLaTeX
+lastDocument=cheatsheet.tex
+
+[document-settings,item:cheatsheet.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=latex
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:subsections/kile.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=latex
+Mode=LaTeX
+Mode Set By User=false
+
+[item:cheatsheet.kilepr]
+open=false
+order=-1
+
+[item:cheatsheet.tex]
+open=true
+order=0
+
+[item:subsections/def.tex]
+open=false
+order=-1
+
+[item:subsections/jupyter.tex]
+open=false
+order=-1
+
+[item:subsections/kile.tex]
+open=false
+order=1
+
+[item:subsections/pycharm.tex]
+open=false
+order=-1
+
+[view-settings,view=0,item:cheatsheet.tex]
+CursorColumn=14
+CursorLine=2
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:subsections/kile.tex]
+CursorColumn=0
+CursorLine=6
+JumpList=
+TextFolding=[]
+ViMarks=.,6,0,[,6,0,],6,0

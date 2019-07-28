@@ -1,20 +1,16 @@
 \documentclass[10pt,landscape,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
-\usepackage[T1]{fontenc}
-%\usepackage[LY1,T1]{fontenc}
-%\usepackage{frutigernext}
-%\usepackage[lf,minionint]{MinionPro}
-\usepackage{tikz}
-\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
-\usepackage[nosf]{kpfonts}
-\usepackage[t1]{sourcesanspro}
+\usepackage[english]{babel}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+%\usepackage[nosf]{kpfonts}
+%\usepackage[t1]{sourcesanspro}
 \usepackage{multicol}
-\usepackage{wrapfig}
-\usepackage[top=0mm,bottom=1mm,left=0mm,right=1mm]{geometry}
-\usepackage[framemethod=tikz]{mdframed}
-\usepackage{microtype}
-\usepackage{pdfpages}
+%\usepackage{wrapfig}
+\usepackage[top=1mm,bottom=1mm,left=1mm,right=1mm]{geometry}
+%\usepackage[framemethod=tikz]{mdframed}
+%\usepackage{microtype}
+%\usepackage{pdfpages}
 
 \let\bar\overline
 
@@ -23,9 +19,11 @@
 \begin{document}
     %\footnotesize
     \small
-    \begin{multicols*}{5}
+    \begin{multicols*}{2}
         \input{subsections/pycharm}
         \input{subsections/jupyter}
         \input{subsections/kile}
+        \input{subsections/matlab}
+        \input{subsections/tmux}
     \end{multicols*}
 \end{document}
