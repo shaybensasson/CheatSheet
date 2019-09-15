@@ -3,7 +3,13 @@
 \begin{tabular}{|c||c|} %vertical bars
     \hline
     Detach & \ctrl+B,~D \\ \hline
-    Attach & \begin{lstlisting}[language=bash]
+    Attach & \begin{bash}
 tmux a
-    \end{lstlisting} \\ \hline
+    \end{bash} \\ \hline
+    List sessions & \begin{bash}
+        tmux ls
+    \end{bash} \\ \hline
+    Kill session & \begin{bash}
+        tmux kill-session -t SESSION_ID
+    \end{bash} \\ \hline
 \end{tabular}

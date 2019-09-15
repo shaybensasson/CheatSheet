@@ -1,8 +1,15 @@
 [General]
 kile_livePreviewEnabled=true
-kile_livePreviewStatusUserSpecified=true
+kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cheatsheet.tex
+lastDocument=subsections/tmux.tex
+
+[document-settings,item:cheatsheet.kilepr]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=latex
+Mode=
 
 [document-settings,item:cheatsheet.tex]
 Bookmarks=
@@ -13,6 +20,31 @@ Indentation Mode=latex
 Mode=LaTeX
 Mode Set By User=false
 
+[document-settings,item:subsections/def.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=latex
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:subsections/docker.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=latex
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:subsections/jupyter.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=latex
+Mode=LaTeX
+
 [document-settings,item:subsections/kile.tex]
 Bookmarks=
 Encoding=UTF-8
@@ -22,6 +54,31 @@ Indentation Mode=latex
 Mode=LaTeX
 Mode Set By User=false
 
+[document-settings,item:subsections/midnight.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=latex
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:subsections/pycharm.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=latex
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:subsections/tmux.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=latex
+Mode=LaTeX
+
 [item:cheatsheet.kilepr]
 open=false
 order=-1
@@ -30,9 +87,17 @@ order=-1
 open=true
 order=0
 
+[item:subsections/bash.tex]
+open=false
+order=-1
+
 [item:subsections/def.tex]
 open=false
 order=-1
+
+[item:subsections/docker.tex]
+open=true
+order=1
 
 [item:subsections/jupyter.tex]
 open=false
@@ -40,17 +105,48 @@ order=-1
 
 [item:subsections/kile.tex]
 open=false
-order=1
+order=-1
+
+[item:subsections/matlab.tex]
+open=false
+order=-1
+
+[item:subsections/midnight.tex]
+open=false
+order=-1
 
 [item:subsections/pycharm.tex]
 open=false
 order=-1
 
+[item:subsections/tmux.tex]
+open=true
+order=2
+
 [view-settings,view=0,item:cheatsheet.tex]
-CursorColumn=14
-CursorLine=2
+CursorColumn=0
+CursorLine=21
 JumpList=
 TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:subsections/def.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:subsections/docker.tex]
+CursorColumn=10
+CursorLine=4
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[view-settings,view=0,item:subsections/jupyter.tex]
+CursorColumn=47
+CursorLine=5
+JumpList=
 ViMarks=
 
 [view-settings,view=0,item:subsections/kile.tex]
@@ -59,3 +155,22 @@ CursorLine=6
 JumpList=
 TextFolding=[]
 ViMarks=.,6,0,[,6,0,],6,0
+
+[view-settings,view=0,item:subsections/midnight.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:subsections/pycharm.tex]
+CursorColumn=47
+CursorLine=31
+JumpList=
+TextFolding=[]
+ViMarks=.,31,41,[,31,40,],31,46
+
+[view-settings,view=0,item:subsections/tmux.tex]
+CursorColumn=39
+CursorLine=12
+JumpList=
+ViMarks=.,12,38,[,12,13,],12,38

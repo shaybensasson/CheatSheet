@@ -12,6 +12,15 @@
 %\usepackage{microtype}
 %\usepackage{pdfpages}
 
+\usepackage{makecell}  %custom cell format (e.g. newline) of a table
+%https://tex.stackexchange.com/a/176780
+
+\renewcommand\theadalign{bc} %{vh} where v is one of t,c,b and h one of l,c,r
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+
 \let\bar\overline
 
 \include{subsections/def}
@@ -24,6 +33,11 @@
         \input{subsections/jupyter}
         \input{subsections/kile}
         \input{subsections/matlab}
+        \input{subsections/bash}
         \input{subsections/tmux}
+        
+        \input{subsections/midnight}
+        
+        \input{subsections/docker}
     \end{multicols*}
 \end{document}

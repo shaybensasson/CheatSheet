@@ -1,0 +1,39 @@
+
+\section*{\center{docker}}
+\subsection*{Cannonical}
+\begin{tabular}{|c||c|} %vertical bars
+    \hline
+    list running dockers & \begin{bash}
+docker ps
+    \end{bash} \\ \hline
+    list all dockers & \begin{bash}
+docker ps -a
+    \end{bash} \\ \hline
+    docker (interactive, detached,name) & \begin{bash}
+docker run -it -d --rm --name ubuntu1 ubuntu /bin/bash
+    \end{bash} \\ \hline
+    attach docker & \begin{bash}
+docker attach NAME
+    \end{bash} \\ \hline
+    detach docker & \begin{bash}
+docker detach NAME
+    \end{bash} \\ \hline
+    stops the docker & \begin{bash}
+docker stop NAME
+    \end{bash} \\ \hline
+    remove the docker & \begin{bash}
+docker rm NAME
+    \end{bash} \\ \hline
+    print docker cfg & \begin{bash}
+docker inspect NAME
+    \end{bash} \\ \hline
+bind port & \begin{bash}
+        -p HOST:DOCKER
+    \end{bash} \\ \hline
+list images & \begin{bash}
+        docker image list
+    \end{bash} \\ \hline
+remove image & \begin{bash}
+        docker rmi NAME
+    \end{bash} \\ \hline
+\end{tabular}
