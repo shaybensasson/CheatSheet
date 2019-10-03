@@ -1,15 +1,23 @@
 
 \section*{\center{bash}}
+
 \subsection*{Cannonical}
 \begin{tabular}{|c||c|} %vertical bars
     \hline
-    ls (names only) & \begin{bash}
-ls
-    \end{bash} \\ \hline
-    ls (details) & \begin{bash}
-ll
-    \end{bash} \\ \hline
-    list files/dirs recursively & \begin{bash}
-find
-    \end{bash} \\ \hline
+    Fetch documentation & \ctrl+Q \\ \hline
+    ls (names only) & \verb ls \\ \hline
+    ls (all/everything) & \verb ls ~\verb -a \\ \hline
+    ls (long list) & \verb ls ~\verb -l \\
+    ~ & \verb ll \\ \hline
+    
+    list files/dirs recursively & \verb find \\ \hline
+    locate indexed files everywhere & \verb locate \\ \hline    
+    Stack dirs for easy navigation &  \verb pushd ~DIR \\
+    ~ & \verb popd \\ \hline
+    
+    
+    Propose a command & \verb apropos \\ \hline    
+    
+    Write into a file interactively & \verb cat ~$\rangle\rangle$ THEFILE \\
+    When done: & Ctrl-d \\ \hline
 \end{tabular}

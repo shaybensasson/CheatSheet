@@ -33,7 +33,18 @@ bind port & \begin{bash}
 list images & \begin{bash}
         docker image list
     \end{bash} \\ \hline
+Filter images by `latest` tag & \begin{bash}
+        docker images --filter=reference='*:latest'
+    \end{bash} \\ \hline
 remove image & \begin{bash}
         docker rmi NAME
+    \end{bash} \\ \hline
+\end{tabular}
+
+\subsection*{Cleanup}
+\begin{tabular}{|c||c|} %vertical bars
+    \hline
+    \textdollar removed `dangling` (unattached) images & \begin{bash}
+docker rmi $(docker images -f "dangling=true" -q)
     \end{bash} \\ \hline
 \end{tabular}
