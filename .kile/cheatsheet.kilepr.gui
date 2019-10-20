@@ -102,8 +102,8 @@ open=false
 order=-1
 
 [item:cheatsheet.tex]
-open=false
-order=0
+open=true
+order=2
 
 [item:subsections/bash.tex]
 open=true
@@ -149,11 +149,11 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:subsections/bash.tex]
-CursorColumn=48
-CursorLine=22
+CursorColumn=0
+CursorLine=2
 JumpList=
 TextFolding=[]
-ViMarks=.,21,48,[,21,48,],21,48
+ViMarks=.,2,0,[,2,0,],2,0
 
 [view-settings,view=0,item:subsections/def.tex]
 CursorColumn=0
