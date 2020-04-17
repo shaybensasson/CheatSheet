@@ -6,6 +6,9 @@
     Attach & \begin{bash}
 tmux a
     \end{bash} \\ \hline
+    Attach (and detach all other client) & \begin{bash}
+tmux a -d
+    \end{bash} \\ \hline
     List sessions & \begin{bash}
         tmux ls
     \end{bash} \\ \hline
@@ -14,4 +17,12 @@ tmux a
     \end{bash} \\ \hline
     Vertical split & \ctrl+B,~\% \\ \hline
     Horizontal split & \ctrl+B,~`` \\ \hline
+\end{tabular}
+
+\subsection*{Virtual Sessions}
+\begin{tabular}{|c||c|} %vertical bars
+    \hline
+    Create & \ctrl+B,~C \\ \hline
+    Next & \ctrl+B,~N \\ \hline
+    Prev & \ctrl+B,~P \\ \hline
 \end{tabular}
